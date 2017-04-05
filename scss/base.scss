@@ -1,0 +1,43 @@
+
+/* /// BASE /// */
+html {
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale
+}
+body {
+ background-color: $body-color;
+ color: $text-color;
+ font-family: $font-stack;
+ font-size: $base-font-size;
+ line-height: $base-line-height;
+}
+::-moz-selection {
+ background: $primary-color;
+ color: #fff;
+ text-shadow: none
+}
+::selection {
+ background: $primary-color;
+ color: #fff;
+ text-shadow: none
+}
+
+/* FORMS */
+::-webkit-input-placeholder {
+color:hsla(0,0%,9%,.32)
+}
+:-moz-placeholder, ::-moz-placeholder {
+color:hsla(0,0%,9%,.32)
+}
+:-ms-input-placeholder {
+color:hsla(0,0%,9%,.32)
+}
+
+/* GRID */
+@media (min-width: 1400px) {
+.container {
+ width: 1370px;
+}
+}

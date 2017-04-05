@@ -1,0 +1,90 @@
+
+/// Font weights
+$thin: 100;
+$light: 300;
+$regular: 400;
+$bold: 700;
+$black: 900;
+
+/// Units 
+$base-font-size: 16px;
+$base-font-weight: $regular;
+$base-line-height: 1.42857143;
+
+$font-size-large:				$base-font-size * 1.2;
+$font-size-small:				$base-font-size / 1.2;
+$font-size-xsmall:				$base-font-size / 1.5;
+
+$line-height-large:				$base-line-height * 1.1;
+$line-height-small:				$base-line-height / 1.2;
+
+/// Fonts 
+$font-stack: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-font-stack: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$icon-font-stack: "FontAwesome";
+
+/// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+/// Typography
+$uppercase: uppercase;
+$lowercase: lowercase;
+$capitalize: capitalize;
+
+/// Colors 
+$body-color: #fff;
+$text-color: #191819;
+$primary-color: #0dc3ad;
+$secondary-color: #e4e5e7;
+$white: #fff;
+$gray: #738694;
+$gray-light: #f8f9fa;
+$gray-dark: #394854;
+$dark: #2a3945;
+$transparent: rgba(255, 255, 255, 0.00);
+
+/// Spacing
+$base-space-unit: 10px;
+
+//btn
+$padding-base-vertical: 		$base-space-unit - 2 ;
+$padding-base-horizontal: 		$base-space-unit;
+
+//btn-lg
+$padding-large-vertical:		$base-space-unit;
+$padding-large-horizontal:		$base-space-unit * 1.2;
+
+//btn-sm
+$padding-small-vertical:		$base-space-unit / 2;
+$padding-small-horizontal:		$base-space-unit - 4;
+
+//btn-xs
+$padding-xs-vertical:			$base-space-unit / 3;
+$padding-xs-horizontal:			$base-space-unit / 2.5;
+
+
+/// Bootstrap Override
+$btn-font-weight:                normal;
+
+$btn-default-color:              $text-color;
+$btn-default-bg:                 $body-color;
+$btn-default-border:             $text-color;
+
+$btn-primary-color:              #fff;
+$btn-primary-bg:                 $primary-color;
+$btn-primary-border:             $primary-color;
+
+$btn-secondary-color:            #fff;
+$btn-secondary-bg:               $secondary-color;
+$btn-secondary-border:           $secondary-color;
+
+$btn-link-disabled-color:        $gray-light;
+
+$btn-border-radius-base:         0;
+$btn-border-radius-large:        0;
+$btn-border-radius-small:        0;
+
+$btn-border-width:				 2px;
+

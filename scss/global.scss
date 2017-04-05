@@ -1,0 +1,23 @@
+
+/**
+CSS Document 
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+Theme Name:			NAME 
+Description: 		DESCRIPTIONe.
+Version:			0.000
+Author:				Ali Alamshahi
+Author URI:			http://alialamshahi.com
+**/
+
+@import 'variables';
+@import 'vendor-prefixes';
+@import 'fonts';
+@import 'base';
+@import 'typography';
+@import 'bootstrap-override';
+@import 'helper-classes';
+@import 'custom';
